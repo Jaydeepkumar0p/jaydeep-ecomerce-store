@@ -1,7 +1,7 @@
 // config/conn.js
 const Connection = async () => {
     // Check if the URL is defined
-    if (!process.env.MONGODB_URL) {
+    if (!process.env.MONGODB_URl) {
         console.error("Error: MONGODB_URL is not defined in environment variables.");
         process.exit(1);
     }
