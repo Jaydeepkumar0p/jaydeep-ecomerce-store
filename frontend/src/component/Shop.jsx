@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useProductStore } from "../zustand/product";
 import { useCategoryStore } from "../zustand/category";
 import SmallProduct from "../component/Smallproduct";
-import ProductCarousel from "./ProductCarousel";
+import ProductCarousel from "../component/ProductCarousel";
 import { Search, Filter, Star, Zap, Grid3X3 } from 'lucide-react';
 
 const Shop = () => {
