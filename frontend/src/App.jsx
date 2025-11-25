@@ -13,7 +13,7 @@ import EditProduct from './pages/admin/EditProduct'
 import Shop from './component/Shop'
 import Productdetails from './component/Productdetails'
 import Cart from './component/Cart'
-import CheckOut from "./component/CheckOut";
+import Checkout from "./component/Checkout";
 import PaymentFailed from './component/PaymentFailed'
 import PaymentSuccess from './component/PaymentSuccess'
 import HomePage from './pages/HomePage'
@@ -57,7 +57,7 @@ const App = () => {
           <Route path="/mineorders" element={requireAuth(<MyOrdersPage />)} />
           <Route path='/profile' element={requireAuth(<Profile/>)} />
           <Route path="/cart" element={requireAuth(<Cart/>)} />
-          <Route path="/checkout" element={requireAuth(<CheckOut/>)} />
+          <Route path="/checkout" element={requireAuth(<Checkout/>)} />
           <Route path="/payment-success" element={requireAuth(<PaymentSuccess />)} />
           <Route path="/payment-failed" element={requireAuth(<PaymentFailed />)} />
           
