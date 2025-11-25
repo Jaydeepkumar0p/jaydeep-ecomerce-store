@@ -13,7 +13,7 @@ import EditProduct from './pages/admin/EditProduct'
 import Shop from './component/Shop'
 import Productdetails from './component/Productdetails'
 import Cart from './component/Cart'
-import CheckOut from "./components/CheckOut";
+import CheckOut from "./component/CheckOut";
 import PaymentFailed from './component/PaymentFailed'
 import PaymentSuccess from './component/PaymentSuccess'
 import HomePage from './pages/HomePage'
