@@ -1,4 +1,4 @@
-// config/conn.js
+import mongoose from "mongoose";// config/conn.js
 const Connection = async () => {
     // Check if the URL is defined
     if (!process.env.MONGODB_URL) {
