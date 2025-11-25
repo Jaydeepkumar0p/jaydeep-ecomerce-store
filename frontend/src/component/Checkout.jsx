@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { FaLock } from "react-icons/fa";
 import { useCartStore } from "../zustand/cart";
 
-const Checkout = () => {
+const CheckOut = () => {
   const {
     cartItems,
     shippingAddress,
@@ -97,4 +97,4 @@ const Checkout = () => {
   );
 };
 
-export default Checkout;
+export default CheckOut;
